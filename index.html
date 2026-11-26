@@ -54,4 +54,10 @@ button,input,select{touch-action:manipulation}
 @media (max-width:600px){.shell{padding-left:12px;padding-right:12px}.board-area{padding:10px}.tabs{scroll-snap-type:x proximity}.tab{scroll-snap-align:start}}
 
 </style>
+
+<style id="seat-labo-device-v2">
+/* Tablet operation: keep the seat map readable and controls reachable */
+@media (min-width:601px) and (max-width:900px){.shell{padding-left:18px;padding-right:18px}.layout{grid-template-columns:minmax(0,1fr)}.card{min-width:0}.card-head{align-items:flex-start;flex-wrap:wrap}.actions{display:flex;flex-wrap:wrap;gap:8px}.board-area{max-width:100%;overflow-x:auto}.tabs{display:flex;overflow-x:auto;white-space:nowrap}.tab{flex:1 0 auto}}
+@media (max-width:600px){.top{align-items:flex-start;gap:12px;flex-wrap:wrap}.shell{padding-bottom:24px}.card-head{gap:10px}.actions .btn{flex:1 1 145px}}
+</style>
 </body></html>
